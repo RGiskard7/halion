@@ -19,7 +19,7 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 
 ---
 
-**HALion** es una plataforma extensible que permitía convertir modelos de lenguaje como GPT-4 en asistentes inteligentes con capacidades personalizadas mediante herramientas modulares (function calling).
+**HALion** fue concebido como una plataforma extensible para convertir modelos de lenguaje como GPT-4 en asistentes inteligentes con capacidades personalizadas mediante herramientas modulares (function calling).
 
 <details>
 <summary>📖 Índice de Contenidos</summary>
@@ -62,7 +62,7 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 
 ## ✨ ¿Qué es HALion?
 
-HALion es un "orquestador" de inteligencia modular. No sólo responde, actúa. Permite que un modelo LLM invoque funciones definidas por el usuario de forma modular, dinámica y extensible. Puedes pensar en HALion como el backend de un sistema operativo para IA conversacional.
+HALion es un "orquestador" de inteligencia modular. No sólo responde, actúa. Permite que un modelo LLM invoque funciones definidas por el usuario de forma modular, dinámica y extensible. HALion explora cómo dotar a un modelo de lenguaje de capacidades externas mediante herramientas modulares y ejecución orquestada.
 
 ## 🧠 Cómo funciona
 
