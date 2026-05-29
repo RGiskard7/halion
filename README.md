@@ -10,6 +10,11 @@
   <a href="https://openai.com/blog/openai-api/"><img src="https://img.shields.io/badge/OpenAI-API-green.svg" alt="OpenAI API"></a>
 </p>
 
+⚠️ Proyecto histórico
+HALion fue una exploración temprana de conceptos como function calling, herramientas dinámicas, generación de herramientas mediante IA y orquestación de flujos de trabajo.
+
+Aunque ya no se desarrolla activamente, se mantiene publicado como referencia técnica y documentación de aquella etapa de experimentación.
+
 **HALion** es una plataforma extensible que convierte modelos de lenguaje como GPT-4 en asistentes inteligentes con capacidades personalizadas mediante herramientas modulares (function calling).
 
 > "No es un chatbot. Es una plataforma de acciones orquestadas por IA."
