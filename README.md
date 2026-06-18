@@ -1,4 +1,4 @@
-# HALion – Modular Intelligence Orchestrator
+# HALion
 
 <p align='center'>  
  <img src='docs/assets/github-banner.png' style="max-width: 100%; max-height: 180px; width: auto;"/>
@@ -46,7 +46,7 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 
 </details>
 
-## 🌟 Características Principales
+## Características Principales
 
 - **Arquitectura modular**: añade herramientas en Python como si fueran plugins.
 - **Panel de administración completo**: visualiza, activa o desactiva herramientas.
