@@ -255,6 +255,6 @@ Este proyecto está licenciado bajo los términos de la licencia Apache 2.0. Con
 ---
 
 <p align="center">
-  <small>Desarrollado por <b>Edu Díaz</b> a.k.a <b>RGiskard7</b> ⚡ impulsado por HALion – IA modular y orquestada.</small>
+  <small>Desarrollado por <b>Edu Díaz</b> a.k.a <b>RGiskard7</b></small>
 </p>
 
