@@ -22,7 +22,7 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 **HALion** fue concebido como una plataforma extensible para convertir modelos de lenguaje como GPT-4 en asistentes inteligentes con capacidades personalizadas mediante herramientas modulares (function calling).
 
 <details>
-<summary>📖 Índice de Contenidos</summary>
+<summary>Índice de Contenidos</summary>
 
 - [HALion – Modular Intelligence Orchestrator](#halion--modular-intelligence-orchestrator)
   - [Características Principales](#-características-principales)
@@ -30,7 +30,7 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
   - [Cómo funciona](#-cómo-funciona)
   - [Generar herramientas con IA](#️-generar-herramientas-con-ia)
   - [HALion en Acción (Interfaz Gráfica)](#-halion-en-acción-interfaz-gráfica)
-  - [Instalación](#️-instalación)
+  - [Instalación](#️instalación)
   - [Uso Rápido](#-uso-rápido)
   - [Guía de Navegación](#-guía-de-navegación)
     - [Chat con Herramientas](#-chat-con-herramientas)
