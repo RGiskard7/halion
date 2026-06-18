@@ -60,7 +60,7 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 - **Control de post-procesado**: decide si la IA debe continuar el flujo o devolver el resultado directo.
 - **Documentación Integrada**: Guías, ejemplos y especificaciones directamente dentro del proyecto.
 
-## ✨ ¿Qué es HALion?
+## ¿Qué es HALion?
 
 HALion es un "orquestador" de inteligencia modular. No sólo responde, actúa. Permite que un modelo LLM invoque funciones definidas por el usuario de forma modular, dinámica y extensible. HALion explora cómo dotar a un modelo de lenguaje de capacidades externas mediante herramientas modulares y ejecución orquestada.
 
