@@ -48,17 +48,17 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 
 ## 🌟 Características Principales
 
-- 🧩 **Arquitectura modular**: añade herramientas en Python como si fueran plugins.
-- 🔧 **Panel de administración completo**: visualiza, activa o desactiva herramientas.
-- ⚙️ **Configuración Avanzada de Modelos**: Ajustes detallados por modelo: temperatura, tokens, post-procesamiento.
-- 🤖 **Generación automática de tools**: crea nuevas herramientas describiendo lo que quieres que hagan.
-- 🔍 **Integración con APIs**: conecta fácilmente servicios externos como clima, búsqueda web, emails, etc.
-- 🔐 **Gestión de entorno**: edita las variables del `.env` directamente desde la interfaz.
-- 📊 **Logs detallados**: traza todas las llamadas a herramientas, con exportación JSON/CSV.
-- 💬 **Chat con herramientas**: usa GPT-4 o GPT-3.5 con tus tools personalizadas.
-- 🔄 **Activación dinámica**: elige qué herramientas están disponibles para el modelo.
-- ⚙️ **Control de post-procesado**: decide si la IA debe continuar el flujo o devolver el resultado directo.
-- 📚 **Documentación Integrada**: Guías, ejemplos y especificaciones directamente dentro del proyecto.
+- **Arquitectura modular**: añade herramientas en Python como si fueran plugins.
+- **Panel de administración completo**: visualiza, activa o desactiva herramientas.
+- **Configuración Avanzada de Modelos**: Ajustes detallados por modelo: temperatura, tokens, post-procesamiento.
+- **Generación automática de tools**: crea nuevas herramientas describiendo lo que quieres que hagan.
+- **Integración con APIs**: conecta fácilmente servicios externos como clima, búsqueda web, emails, etc.
+- **Gestión de entorno**: edita las variables del `.env` directamente desde la interfaz.
+- **Logs detallados**: traza todas las llamadas a herramientas, con exportación JSON/CSV.
+- **Chat con herramientas**: usa GPT-4 o GPT-3.5 con tus tools personalizadas.
+- **Activación dinámica**: elige qué herramientas están disponibles para el modelo.
+- **Control de post-procesado**: decide si la IA debe continuar el flujo o devolver el resultado directo.
+- **Documentación Integrada**: Guías, ejemplos y especificaciones directamente dentro del proyecto.
 
 ## ✨ ¿Qué es HALion?
 
@@ -236,7 +236,6 @@ Consulta el [CHANGELOG.md](./CHANGELOG.md) para más detalles.
 - [📄 Arquitectura y contexto](./main_context.md)
 - [🛠️ Guía de desarrollo de tools](./docs/development.md)
 - [🧭 Roadmap](./roadmap.md)
-- [🧬 Contribuciones](./CONTRIBUTING.md)
 
 ## 🤝 Cómo Contribuir
 
