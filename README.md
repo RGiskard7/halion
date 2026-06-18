@@ -19,22 +19,24 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 
 ---
 
-**HALion** fue concebido como una plataforma extensible para convertir modelos de lenguaje como GPT-4 en asistentes inteligentes con capacidades personalizadas mediante herramientas modulares (function calling).
+**HALion** fue un proyecto experimental centrado en explorar function calling, herramientas dinámicas generadas por IA y automatización de flujos de trabajo sobre modelos de lenguaje de OpenAI.
+
+La aplicación proporciona una interfaz visual para crear, gestionar y ejecutar herramientas personalizadas que pueden ser invocadas por un LLM mediante function calling.
 
 <details>
 <summary>Índice de Contenidos</summary>
 
-- [HALion – Modular Intelligence Orchestrator](#halion--modular-intelligence-orchestrator)
+- [HALion](#halion)
   - [Características Principales](#características-principales)
   - [¿Qué es HALion?](#qué-es-halion)
   - [Cómo funciona](#cómo-funciona)
-  - [Generar herramientas con IA](#️generar-herramientas-con-ia)
+  - [Generar herramientas con IA](#generar-herramientas-con-ia)
   - [HALion en Acción (Interfaz Gráfica)](#halion-en-acción-interfaz-gráfica)
-  - [Instalación](#️instalación)
+  - [Instalación](#instalación)
   - [Uso Rápido](#uso-rápido)
   - [Guía de Navegación](#guía-de-navegación)
     - [Chat con Herramientas](#chat-con-herramientas)
-    - [Administración](#️-administración)
+    - [Administración](#administración)
     - [Herramientas Generadas con IA](#herramientas-generadas-con-ia)
   - [Estructura del Proyecto](#estructura-del-proyecto)
   - [Casos de Uso](#casos-de-uso)
@@ -50,19 +52,22 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
 
 - **Arquitectura modular**: añade herramientas en Python como si fueran plugins.
 - **Panel de administración completo**: visualiza, activa o desactiva herramientas.
-- **Configuración Avanzada de Modelos**: Ajustes detallados por modelo: temperatura, tokens, post-procesamiento.
+- **Configuración de modelos**: temperatura, tokens y parámetros de generación.
 - **Generación automática de tools**: crea nuevas herramientas describiendo lo que quieres que hagan.
-- **Integración con APIs**: conecta fácilmente servicios externos como clima, búsqueda web, emails, etc.
+- **Compatible con herramientas** que consumen APIs externas.
 - **Gestión de entorno**: edita las variables del `.env` directamente desde la interfaz.
 - **Logs detallados**: traza todas las llamadas a herramientas, con exportación JSON/CSV.
 - **Chat con herramientas**: usa GPT-4 o GPT-3.5 con tus tools personalizadas.
 - **Activación dinámica**: elige qué herramientas están disponibles para el modelo.
 - **Control de post-procesado**: decide si la IA debe continuar el flujo o devolver el resultado directo.
-- **Documentación Integrada**: Guías, ejemplos y especificaciones directamente dentro del proyecto.
 
 ## ¿Qué es HALion?
 
-HALion es un "orquestador" de inteligencia modular. No sólo responde, actúa. Permite que un modelo LLM invoque funciones definidas por el usuario de forma modular, dinámica y extensible. HALion explora cómo dotar a un modelo de lenguaje de capacidades externas mediante herramientas modulares y ejecución orquestada.
+HALion es una aplicación experimental construida sobre OpenAI Function Calling que permite a un modelo de lenguaje invocar herramientas Python definidas por el usuario.
+
+El proyecto explora conceptos como herramientas dinámicas, generación de código asistida por IA, ejecución de workflows simples y administración visual de capacidades disponibles para un LLM.
+
+Aunque actualmente se mantiene como proyecto histórico, sirvió como laboratorio de experimentación para distintas ideas relacionadas con la ampliación de capacidades de los modelos de lenguaje.
 
 ## Cómo funciona
 
@@ -105,8 +110,8 @@ A continuación, se muestran algunas capturas de pantalla de la aplicación HALi
 
 ```bash
 # Clona el proyecto
-$ git clone https://github.com/RGiskard7/halion-ai-orchestrator.git
-$ cd halion-ai-orchestrator
+$ git clone https://github.com/RGiskard7/halion.git
+$ cd halion
 
 # Crea un entorno virtual
 $ python -m venv venv
@@ -152,7 +157,7 @@ Abre tu navegador en [http://localhost:8501](http://localhost:8501).
 ## Estructura del Proyecto
 
 ```
-halion-ai-orchestrator/
+halion/
 ├── app/                                # Código principal de la aplicación Streamlit
 │   ├── components/                     # Componentes reutilizables de la interfaz (Streamlit)
 │   │   ├── tool_card.py                #   Ejemplo: Tarjeta para mostrar información de una tool
@@ -216,11 +221,12 @@ halion-ai-orchestrator/
 
 ## Casos de Uso
 
-- **Agente Conversacional Empresarial**: Gestiona agendas, sistemas internos, y bases de datos.
-- **Dashboards Inteligentes**: Interfaz conversacional para análisis de datos y reportes.
-- **IA para Automatización**: Ejecuta flujos definidos por herramientas invocadas por IA.
-- **Integración con Apps y APIs**: Llama APIs externas y procesa los resultados mediante tools personalizadas.
-- **Desarrollo de Prototipos**: Diseña asistentes y flujos rápidamente sin backend complejo.
+- Prototipado de asistentes con herramientas personalizadas.
+- Experimentación con OpenAI Function Calling.
+- Automatización de tareas mediante herramientas Python.
+- Pruebas de integración con APIs externas.
+- Exploración de flujos encadenados mediante toolchains.
+- Aprendizaje y experimentación con arquitecturas basadas en herramientas para LLMs.
 
 ## Mantenimiento y Mejora
 
