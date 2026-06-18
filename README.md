@@ -30,7 +30,7 @@ Aunque ya no se desarrolla activamente, se mantiene publicado como referencia t�
   - [Cómo funciona](#-cómo-funciona)
   - [Generar herramientas con IA](#️-generar-herramientas-con-ia)
   - [HALion en Acción (Interfaz Gráfica)](#-halion-en-acción-interfaz-gráfica)
-  - [Instalación](#️instalación)
+  - [Instalación](#️-instalación)
   - [Uso Rápido](#-uso-rápido)
   - [Guía de Navegación](#-guía-de-navegación)
     - [Chat con Herramientas](#-chat-con-herramientas)
